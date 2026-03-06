@@ -1,0 +1,40 @@
+{
+  "name": "sharkflow",
+  "version": "0.1.0",
+  "description": "⚡ SharkFlow - 链上任务自动化，智能合约交互队列 + 多签工作流",
+  "main": "scripts/flow.mjs",
+  "type": "module",
+  "scripts": {
+    "flow": "node scripts/flow.mjs",
+    "add": "node scripts/flow.mjs add",
+    "execute": "node scripts/flow.mjs execute",
+    "schedule": "node scripts/flow.mjs schedule",
+    "multisig": "node scripts/flow.mjs multisig",
+    "test": "node scripts/flow.mjs"
+  },
+  "keywords": [
+    "task",
+    "workflow",
+    "multisig",
+    "defi",
+    "automation",
+    "crypto",
+    "ethereum",
+    "shark"
+  ],
+  "author": "@gztanht",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gztanht/sharkflow"
+  },
+  "homepage": "https://clawhub.com/skills/sharkflow",
+  "funding": {
+    "type": "crypto",
+    "usdt": "0x33f943e71c7b7c4e88802a68e62cca91dab65ad9",
+    "usdc": "0xcb5173e3f5c2e32265fbbcaec8d26d49bf290e44"
+  }
+}
