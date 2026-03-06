@@ -1,15 +1,12 @@
 {
   "name": "sharkflow",
-  "version": "0.1.0",
-  "description": "⚡ SharkFlow - 链上任务自动化，智能合约交互队列 + 多签工作流",
+  "version": "0.2.0",
+  "description": "⚡ SharkFlow - 链上任务自动化，模板系统 + 任务队列",
   "main": "scripts/flow.mjs",
   "type": "module",
   "scripts": {
     "flow": "node scripts/flow.mjs",
-    "add": "node scripts/flow.mjs add",
-    "execute": "node scripts/flow.mjs execute",
-    "schedule": "node scripts/flow.mjs schedule",
-    "multisig": "node scripts/flow.mjs multisig",
+    "template": "node scripts/template.mjs",
     "test": "node scripts/flow.mjs"
   },
   "keywords": [
@@ -20,7 +17,8 @@
     "automation",
     "crypto",
     "ethereum",
-    "shark"
+    "shark",
+    "template"
   ],
   "author": "@gztanht",
   "license": "MIT",
