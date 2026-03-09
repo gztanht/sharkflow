@@ -1,13 +1,21 @@
 {
   "name": "sharkflow",
-  "version": "0.2.0",
-  "description": "⚡ SharkFlow - 链上任务自动化，模板系统 + 任务队列",
+  "version": "1.0.0",
+  "description": "⚡ SharkFlow - 链上任务自动化，模板系统 + 任务队列 + 定时调度",
   "main": "scripts/flow.mjs",
   "type": "module",
   "scripts": {
     "flow": "node scripts/flow.mjs",
+    "execute": "node scripts/execute.mjs",
+    "schedule": "node scripts/schedule.mjs",
+    "multisig": "node scripts/multisig.mjs",
     "template": "node scripts/template.mjs",
     "test": "node scripts/flow.mjs"
+  },
+  "bin": {
+    "sharkflow": "scripts/flow.mjs",
+    "shark-execute": "scripts/execute.mjs",
+    "shark-schedule": "scripts/schedule.mjs"
   },
   "keywords": [
     "task",
